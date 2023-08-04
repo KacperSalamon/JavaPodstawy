@@ -9,9 +9,9 @@ public class Pętle {
         System.out.println("Zaczynamy losowanie");
 
         Random random = new Random();
-        int randomNumber;
+        int randomNumber = 0;
 
-        while(true){
+        while(randomNumber != 10){
             randomNumber = random.nextInt(10) + 1;
             System.out.println(randomNumber);
 
