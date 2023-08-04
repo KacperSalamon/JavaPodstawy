@@ -40,11 +40,6 @@ public class GraWKości2Graczy {
                 System.out.println("Nieprawidłowy wybór. Spróbuj ponownie.");
             }
 
-            /*if (timeToGamer1) {
-                pointsGamer1 = temPoints;
-            } else {
-                pointsGamer2 = temPoints;
-            }*/
         }
 
         System.out.println("Koniec gry!");
