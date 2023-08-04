@@ -8,14 +8,14 @@ public class GraWKości2 {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int wynik = 0;
+        //int wynik = 0;
         int tymczasowaPula = 0;
         int trwalaPula = 0;
 
         System.out.println("Gra w kości - Wersja 2");
         System.out.println("Zdobądź 20 punktów, ale uważaj, jeśli wypadnie 1 to przegrywasz!");
 
-        while (trwalaPula < 20) {
+        while (tymczasowaPula < 20) {
 
             System.out.println("Chcesz rzucić kostką czy spasować?");
             System.out.println("Twój wynik to: " + tymczasowaPula);
